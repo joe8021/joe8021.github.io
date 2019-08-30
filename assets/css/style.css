@@ -1,0 +1,165 @@
+/* index.html styling */
+body{
+    background-color: lightgray;
+}
+
+.head{
+    background-color: lightblue;
+    width: 1150px;
+    height: 40px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#wrapper{
+    border-radius: 10px;
+    width: 600px;
+    background-color: white;
+    position: relative;
+    left:20%;
+}
+
+h1{
+    position: absolute;
+    /* margin:auto; */
+    bottom:-10%;
+    left:18%;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    position: relative;
+    top:10%;
+}
+
+p{
+    width:500px;
+    padding:1%;
+}
+
+.aboutme{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:20%;
+}
+
+/* vvv apply border to all three compontents, about, portfolio and contact vvv */
+#about{
+    position: fixed;
+    margin:auto;
+    bottom:92.5%;
+    left:70%;
+    /* right:10%; */
+    text-align: center;
+    width: 35px;
+    color:dimgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+
+#portfolio{
+    position: fixed;
+    margin:auto;
+    bottom:92.5%;
+    left:80%;
+    color:dimgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 55px;
+    padding: 5px;
+}
+#contact{
+    position: fixed;
+    margin:auto;
+    bottom:92.5%;
+    left: 90%;
+    color:dimgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 50px;
+    padding: 5px;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    padding: 1%;
+    float:left;
+}
+/* end of index.html styling */
+
+.headC{
+    background-color: lightblue;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 40px;
+    position: relative;
+
+}
+
+.aboutC{
+    position: fixed;
+    margin:auto;
+    bottom:93.5%;
+    left:70%;
+    /* right:10%; */
+    text-align: center;
+    width: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dimgray;
+    padding: 5px;
+
+}
+
+.portfolioC{
+    position: fixed;
+    margin:auto;
+    bottom:93.5%;
+    left:80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dimgray;
+    text-align: center;
+    width: 55px;
+    padding: 5px;
+
+}
+
+.contactC{
+    position: fixed;
+    margin:auto;
+    bottom:93.5%;
+    left: 90%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dimgray;
+    text-align: center;
+    width: 50px;
+    padding: 5px;
+
+}
+
+.form{
+    position: fixed;
+    top: 15%;
+    left: 21%;
+    background-color: white;
+    padding: 4%;
+}
+
+.name{
+    width:200px;
+}
+
+.email{
+    width: 200px;
+}
+
+.message{
+    width: 400px;
+    height: 150px;
+
+}
+
